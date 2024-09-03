@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adecse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">ADECSE</div>
+        <nav>
+            <ul>
+                <li><a href="">Legislacion</a></li>
+                <li><a href="">Que Hacemos</a></li>
+                <li><a href="">Comision Directiva</a></li>
+            </ul>
+        </nav>
+        <div class="language">
+            <span>ES</span>
+            <button onclick="contactUs()">CONTACTANOS</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>ADECSE</h1>
+                <p>Asociacion de Defensa del consumidor</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="precios-sepa">
+                <div class="icon">📁</div>
+                <div class="content">
+                    <h2>Precios SEPA</h2>
+                    <p>Accedé a la base de datos abiertos del SEPA (Sistema Electrónico de Publicidad de Precios Argentinos) con 12 millones de precios diarios.</p>
+                    <a href="https://datos.produccion.gob.ar/dataset/sepa-precios">Ver</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <section class="denuncias">
+            <h2>¿Qué podés denunciar?</h2>
+            <div class="imagen-central">
+                <!-- Reemplaza 'ruta-imagen-central.jpg' con la ruta real de tu imagen -->
+                <img src="./img/3303664.jpg" alt="Imagen de denuncias">
+            </div>
+            <div class="categorias-denuncias">
+                <div class="categoria">
+                    <div class="icono">
+                        <!-- Reemplaza 'icono1.png' con la ruta real de tu icono -->
+                        <img src="./img/smartphone_3930510.png" alt="Icono 1">
+                        
+                    </div>
+                    <h3>Telefonía celular</h3>
+                </div>
+                <div class="categoria">
+                    <div class="icono">
+                        <img src="./img/bank_3467169.png" alt="Icono 2">
+                    </div>
+                    <h3>Bancos y financieras</h3>
+                </div>
+                <div class="categoria">
+                    <div class="icono">
+                        <img src="./img/electronics_2681706.png" alt="Icono 3">
+                    </div>
+                    <h3>Electrodomésticos</h3>
+                </div>
+                <div class="categoria">
+                    <div class="icono">
+                        <img src="./img/service_3166130.png" alt="Icono 4">
+                    </div>
+                    <h3>Servicio Técnico</h3>
+                </div>
+                <div class="categoria">
+                    <div class="icono">
+                        <img src="./img/clothes-rack_3275391.png" alt="Icono 5">
+                    </div>
+                    <h3>Comercios de Vestimenta</h3>
+                </div>
+                <div class="categoria">
+                    <div class="icono">
+                        <img src="./img/hotel-signal_393290.png" alt="Icono 6">
+                    </div>
+                    <h3>Alojamiento</h3>
+                </div>
+            </div>
+        </section>        
+
+        <section class="mapa-ubicacion">
+            <h2>Nuestra Ubicación</h2>
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.496032725706!2d-64.25998412511431!3d-27.794498630622105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b526a406a5393%3A0x8be5799a7fcabd20!2sA.D.E.C.S.E.%20Asociacion%20De%20Defensa%20Del%20Consumidor%20De%20Sgo%20Del%20Estero!5e0!3m2!1ses!2sar!4v1725235428589!5m2!1ses!2sar" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="logo-alternativo">
+            <img src="./img/adecseLogoAzul.jpg" alt="Logo Alternativo">
+        </section>
+        
+        <section class="asesoramiento">
+            <button id="mostrarAsesoramiento">Para un asesoramiento más personalizado</button>
+            <div id="detallesAsesoramiento" style="display: none;">
+                <p>Presenta tu caso en nuestra sucursal en la ciudad de Santiago del Estero, La Rioja 40 con los siguientes documentos:</p>
+                <ul>
+                    <li><strong>Documento de Identidad</strong>: Lleva tu DNI o un documento que acredite tu identidad.</li>
+                    <li><strong>Prueba de Compra</strong>: Factura, ticket de compra, recibo o cualquier otro comprobante que demuestre que adquiriste el bien o servicio en cuestión.</li>
+                    <li><strong>Contrato o Términos y Condiciones</strong>: Si firmaste un contrato o aceptaste términos y condiciones, es útil llevar una copia.</li>
+                    <li><strong>Correspondencia</strong>: Emails, cartas, mensajes de texto o cualquier otra forma de comunicación que hayas tenido con la empresa sobre el problema.</li>
+                    <li><strong>Presupuesto y Detalles del Producto o Servicio</strong>: Información sobre el bien o servicio adquirido, como presupuestos, catálogos o detalles técnicos.</li>
+                    <li><strong>Documentación Relacionada al Pago</strong>: Extractos bancarios, comprobantes de transferencia, resúmenes de tarjeta de crédito o cualquier otra prueba del pago.</li>
+                    <li><strong>Reclamos Previos</strong>: Si ya hiciste reclamos anteriores a la empresa, lleva copias de esos reclamos y cualquier respuesta que hayas recibido.</li>
+                    <li><strong>Fotografías o Videos</strong>: Evidencia visual del problema, como fotos o videos del producto defectuoso o del servicio mal prestado.</li>
+                    <li><strong>Nota Explicativa</strong>: Un resumen escrito de tu reclamo, explicando claramente el problema y lo que estás solicitando como solución.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+          <div class="logo-and-info">
+            <img src="path-to-your-logo.png" alt="ADECSE Logo">
+            <div class="contact-info">
+              <h3>ADECSE</h3>
+              <p>Teléfono: (0385) 425-3342</p>
+              <p>Dirección: Calle Rioja Nº 40 - Bº Centro</p>
+              <p>Sgo. del Estero - Capital - CP 4200</p>
+              <p>Días y Horarios de Atención: Martes y Jueves de 18:00 a 21:00 Hs.</p>
+              <p>Contáctenos: <a href="mailto:adecse04@hotmail.com">adecse04@hotmail.com</a></p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="facebook-icon">Facebook</a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2024 <a href="your-portfolio-url">efacelli</a></p>
+        </div>
+      </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

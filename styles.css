@@ -1,0 +1,397 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language span {
+    margin-right: 15px;
+}
+
+.language button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.hero-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.logo-alternativo {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logo-alternativo img {
+    max-width: 70%;
+    height: auto;
+}
+
+.asesoramiento {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#mostrarAsesoramiento {
+    background-color: #356533;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#mostrarAsesoramiento:hover {
+    background-color: #2a4f28;
+}
+
+#detallesAsesoramiento {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#detallesAsesoramiento p {
+    margin-bottom: 15px;
+}
+
+#detallesAsesoramiento ul {
+    padding-left: 20px;
+}
+
+#detallesAsesoramiento li {
+    margin-bottom: 10px;
+}
+
+#detallesAsesoramiento strong {
+    color: #356533;
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.precios-sepa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc; /* Añadido el borde */
+    padding: 1rem; /* Añadido padding para espacio interior */
+}
+.precios-sepa a {
+    text-decoration: none;
+    color: white; /* O el color que prefieras */
+    background-color: #4CAF50; /* Verde, ajusta según tu preferencia */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.precios-sepa a:hover {
+    background-color: #45a049; /* Un verde más oscuro para el efecto hover */
+}
+
+
+
+
+.icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.content h2 {
+    color: #4a4a4a;
+    margin-top: 0;
+}
+
+.content p {
+    color: #666666;
+}
+
+button {
+    background-color: #356533;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.categoria {
+    flex-basis: calc(33.333% - 1rem);
+    text-align: center;
+}
+
+.categoria img {
+    max-width: 50px;
+    height: 350px;
+}
+.categorias-denuncias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.denuncias h2 {
+    color: #356533;
+    font-size: 28px;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+.mapa-ubicacion {
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.mapa-ubicacion h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #356533;
+    font-size: 28px;
+}
+
+/* Mapa */
+.mapa-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.mapa-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.imagen-central {
+    margin-bottom: 40px;
+}
+
+.imagen-central img {
+    max-width: 100%;
+    height: 350px;
+    display: block; /* Asegura que la imagen se comporte como bloque */
+    margin: 0 auto; /* Centra la imagen */
+}
+
+.categorias-denuncias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categoria {
+    flex-basis: calc(16.666% - 20px);
+    margin-bottom: 20px;
+}
+
+.icono {
+    margin-bottom: 10px;
+}
+
+.icono img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.categoria h3 {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Footer */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+  .logo-and-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-and-info img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .contact-info h3 {
+    margin-top: 0;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+  }
+  
+  .copyright a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .copyright a:hover {
+    text-decoration: underline;
+  }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+    }
+
+    .language {
+        margin-top: 1rem;
+    }
+
+    .categoria {
+        flex-basis: calc(50% - 1rem);
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .logo-and-info, .social-links {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .categoria {
+        flex-basis: 100%;
+    }
+}
