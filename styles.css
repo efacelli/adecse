@@ -282,6 +282,35 @@ img {
     margin: 0 auto; /* Centra la imagen */
 }
 
+.derechos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.derechos-title {
+    text-align: center;
+    color: #333;
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 10px;
+}
+.derechos-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+.derechos-list li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+}
+.derechos-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+}
+
+
+
 .categorias-denuncias {
     display: flex;
     justify-content: space-between;
